@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     //数値の足し算処理
     @IBAction func plus(){
-        number = number + 0.1
+        number = number + 1
         print(number)
         label.text = String(number)
         

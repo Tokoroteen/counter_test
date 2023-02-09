@@ -147,6 +147,7 @@
                     <navigationItem key="navigationItem" id="CHQ-xG-bW9"/>
                     <connections>
                         <outlet property="label" destination="9d8-9l-QEb" id="lVF-Qh-8PX"/>
+                        <segue destination="KWj-eA-Zxq" kind="presentation" identifier="toSecond" id="HjT-da-x6f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -180,6 +181,9 @@
             <point key="canvasLocation" x="785.49618320610682" y="2.8169014084507045"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="HjT-da-x6f"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
