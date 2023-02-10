@@ -9,12 +9,20 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    //    受け皿を定義
+    var passedNumber : Int = 0
+    
+    @IBOutlet var numberLabel : UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //画面上のラベルに表示させる
+        print("passedNumber=", passedNumber)
+        numberLabel.text = String(passedNumber)
     }
+    
     
 
     /*
